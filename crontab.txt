@@ -1,0 +1,7 @@
+01 05 * * * /home/twu/bjradio/updateDateToToday.sh 1 /home/twu/bjradio/getWMAFiles_1.sh >> /var/tmp/bjradio.log 2>&1
+02 05 * * * /home/twu/bjradio/updateDateToToday.sh 1 /home/twu/bjradio/getWMAFiles_2.sh >> /var/tmp/bjradio.log 2>&1
+03 05 * * *  /home/twu/bjradio/updateDateToToday.sh 1 /home/twu/bjradio/getWMAFiles_1.sh >> /var/tmp/bjradio.log 2>&1
+03 05 * * *  /home/twu/bjradio/updateDateToToday.sh 1 /home/twu/bjradio/getWMAFiles_2.sh >> /var/tmp/bjradio.log 2>&1
+01 07 * * * find /home/twu/bjradio -mtime +3 \( -name "*.mp3" -o -name "*.wma"  -o -name "*.mp4" \) -exec rm -f {} \; >> /var/tmp/bjradio.log 2>&1
+05 09 * * * /home/twu/bjradio/getWMAFiles_1.sh >> /var/tmp/bjradio.log 2>&1
+05 11 * * * /home/twu/bjradio/getWMAFiles_2.sh >> /var/tmp/bjradio.log 2>&1

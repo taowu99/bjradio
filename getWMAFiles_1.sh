@@ -16,6 +16,9 @@ wget -qc http://playback.rbc.cn/audioD/fm876/20180123/0630003600_mp4/063000_3600
 #相声集萃
 #wget -qc http://res.audio.rbc.cn/yygb/xsjc/xsjc2016102001007306.wma -O 相声集萃201610200100.wma
 
+#娱乐七十二变
+wget -qa https://lcache.qingting.fm/cache/20201117/333/333_20201117_090000_100000_24_0.aac -O 娱乐七十二变202011170900.aac
+
 #广播剧场
 #wget -qc http://res.audio.rbc.cn/wenyi/gbjc/gbjc2016102022304029.wma -O 广播剧场201610202230.wma
 #wget -qc http://resa.rbc.cn:1935/audio/fm876/20161020/2230011799_mp4/223001_1799_96K.mp4 -O 广播剧场201610202230.mp4
